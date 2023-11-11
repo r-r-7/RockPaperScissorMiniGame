@@ -2,7 +2,7 @@ import random
 c1=0
 c2=0
 while True:
-    choice=int(input("Enter your choice\n1.Rock\n2.Paper\n3.Scissor:\n"))
+    choice=int(input("\n1.Rock\n2.Paper\n3.Scissor\nEnter your choice:"))
     while choice>3 | choice<1:
         choice=int(input("Enter valid choice"))
     if choice==1:
